@@ -1,0 +1,112 @@
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website
+$ git config --global user.name "Zeel"
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website
+$ git config --global user.email "dzdobariya101000@gmail.com"
+
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website
+$ touch .gitignore
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website
+$ git init
+Initialized empty Git repository in E:/New folder (3)/JavaScript/Dance Website/.git/
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website (master)
+$ git add .
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website (master)
+$ git commit -m "Initial commit"
+[master (root-commit) a018331] Initial commit
+ 20 files changed, 2442 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 app.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 static/bg.jpg
+ create mode 100644 static/img/1.jpg
+ create mode 100644 static/img/2.jpg
+ create mode 100644 static/img/3.jpg
+ create mode 100644 static/img/logo.jpg
+ create mode 100644 static/img/logo1.png
+ create mode 100644 static/img/logo2.jpg
+ create mode 100644 static/img/logo3.png
+ create mode 100644 static/img/logo4.png
+ create mode 100644 static/index.js
+ create mode 100644 static/style.css
+ create mode 100644 static/styleContact.css
+ create mode 100644 views/base.pug
+ create mode 100644 views/contact.pug
+ create mode 100644 views/home.pug
+ create mode 100644 views/index.pug
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website (master)
+$ git remote add origin git@github.com:zeel000/DanceWebsite.git
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website (master)
+$ git push origin master
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website (master)
+$ ssh-keygen -t rsa -b 4096 -C "dzdobariya101000@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/admin/.ssh/id_rsa):
+Created directory '/c/Users/admin/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/admin/.ssh/id_rsa
+Your public key has been saved in /c/Users/admin/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:V186zjWuDY272KPJ3DyZ6xNL22vQYMQheTlHU0dMgwQ dzdobariya101000@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|           E=o=B*|
+|           ..B .=|
+|            + o .|
+|           . + o |
+|        S . . *..|
+|         .   *++.|
+|            .o@o |
+|          o *O=o |
+|           *oXBo.|
++----[SHA256]-----+
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website (master)
+$ cat  /c/Users/admin/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDQ/PlKKq6xz8OX/DnZ30QJEpmapbyM+hLoy+GMyGsNBi72fkf4zmwGF/SSA4vSPapDMd/GHKPX68zupUfAq95N50yHDaW4dGikWksre/oh0lMgeP9zxFtOYX49WBq4XDQ2rev4d2oiWWLI+0QRQC1f4wJ3aFSyRam7sOANyztGHehQzLfeZVU30hg+u2qvsJXifGagbwSJsFQGxDVaKWcZvHcY5WLqPlXQhDUF7Krmv83RAdfdEg6JMUIjglzQ87WJFL5bd+qUeinwBzkdS8NE6qquNmLmuD7tmj4ssYiLvXUStvY3iLIbWKdVa8WjZwS4h2YtjR3oa5psWpznHkK/OiCPryzM/QeHSQRZrtIpdWr5Vz3V7MuhzHoRt5fb8ueZ5GZ/joYclLYretbpw+e8Ub5Fk7ZQR5R8ZkOgeZVkF50BdK8E+Sxy0yCi5Gx927wzy5GpkK1rAvjfwm5EtX3SbIskz4LD88BHmMhTWQPfvj1pwmR4UGICGSLLLJ5U0rVq/62lL4tHxvobwCC+ovf6L/gaDf41qeIifhVlI7fLA8HgEAR7rHjuPLGx99AyAa5TOd/vHQ== dzdobariya101000@gmail.com
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website (master)
+$ git push origin master
+The authenticity of host 'github.com (13.234.210.38)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,13.234.210.38' (RSA) to the list of known hosts.
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (25/25), 1.20 MiB | 2.89 MiB/s, done.
+Total 25 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To github.com:zeel000/DanceWebsite.git
+ * [new branch]      master -> master
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website (master)
+$ ^C
+
+admin@DESKTOP-E2G495Q MINGW64 /e/New folder (3)/JavaScript/Dance Website (master)
+$
